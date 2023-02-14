@@ -14,7 +14,7 @@ Solution: `sc config LxssManager start=auto`
 8. `wsl --set-default-version 2`
 9. Installar o linux pela microsoft store
 10. Abrir o linux installado
-11. Criar usuario (NOME: thiago, PASSWORD: 123456)
+11. Criar usuario (NOME: {Colocar seu usuario}, PASSWORD: {Colocar a sua senha})
 
 ## Dicas:
 
