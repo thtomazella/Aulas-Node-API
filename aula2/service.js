@@ -13,13 +13,15 @@ const URL = `https://swapi.dev/api/people`
 }
 
 // 5 - Exportar o arquivo para ser visivel em outros módulos
-modules.exports = { obterPessoas}
+module.exports={
+    obterPessoas
+}
 
 // 4 - Fazer a chamada da URL - para teste.. após testado pode cancelar a chamada
-obterPessoas('r2')
-    .then(function(resultado){
-        console.log('Resultado',resultado)
-    })
-    .catch(function(error){
-        console.error('Erro Na busca', error)
-    })
+// obterPessoas('r2')
+//     .then(function(resultado){
+//         console.log('Resultado',resultado)
+//     })
+//     .catch(function(error){
+//         console.error('Erro Na busca', error)
+//     })

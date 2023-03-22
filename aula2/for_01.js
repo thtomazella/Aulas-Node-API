@@ -22,25 +22,6 @@ async function main(){
         console.log('Nomes:', names)
         console.timeEnd('for')
 
-
-        console.time('forin')
-        //6 - Criar o for
-        for(let i in result.results){
-            const pessoa = result.results[i]
-            names.push(pessoa.name)
-        }
-        console.log('Nomes:', names)
-        console.timeEnd('forin')
-        
-        
-        console.time('forof')
-        //6 - Criar o for
-        for(pessoa of result.results){
-            names.push(pessoa.name)
-        }
-        console.log('Nomes:', names)
-        console.timeEnd('forof')        
-
     }catch(error){
         console.log('Erro interno:', error)
     }
